@@ -33,15 +33,8 @@ ports_description:
   1935/tcp: RTMP streams
 host_network: false
 devices:
-  - /dev/dri/renderD128
   - /dev/apex_0
   - /dev/apex_1
-  - /dev/apex_2
-  - /dev/apex_3
-  - /dev/dri/card0
-  - /dev/vchiq
-  - /dev/video10
-  - /dev/video0
 usb: true
 video: true
 tmpfs: true
